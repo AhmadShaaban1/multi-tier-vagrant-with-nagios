@@ -1,12 +1,24 @@
-# nagios
+# Multi-Tier Application Deployment using Vagrant
 
+This project demonstrates a **3-tier architecture** deployed using **Vagrant**
+and Linux virtual machines.
 
-<img width="1920" height="928" alt="image" src="https://github.com/user-attachments/assets/576382af-4673-4cec-b683-7ac85732301d" />
+## 🏗 Architecture
+- **Frontend:** Nginx reverse proxy
+- **Backend:** Application service
+- **Database:** MySQL
+- **Monitoring:** Nagios
+- **Provisioning:** Vagrant + Shell scripts
 
+## ⚙️ Technologies Used
+- Vagrant
+- Linux (Ubuntu / CentOS)
+- Nginx
+- MySQL
+- Nagios
+- Bash
+- TCP/IP Networking & Firewall rules
 
-<img width="1920" height="928" alt="image" src="https://github.com/user-attachments/assets/679e9319-828e-4126-9e2b-b323031b73b8" />
-
-
-# App
-
-![image](https://github.com/user-attachments/assets/c859d8a2-98f7-447c-8937-692d81eb6d45)
+## 🚀 How to Run
+```bash
+vagrant up
